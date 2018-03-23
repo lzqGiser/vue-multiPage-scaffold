@@ -37,5 +37,13 @@ npm run build --report
 配置dev对象的defaultPage属性为页面名称相对路径（默认为'／home.html'）
 
 
+### 即将升级改造的地方：
+> 1. 支持动态模版，替换静态的html模版文件；
+  2. mock层支持；
+  3. 升级server，融入最新的koa，改造成全栈版本；
+  4. 接入自有lm-cli
+  5. server端热更新的支持？？
+
+
 
 

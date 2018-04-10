@@ -23,6 +23,10 @@ webpackConfig().then(function(devConfig){
 
   const compiler = webpack(devConfig);
 
+  //console.log(compiler)
+
+
+
   const devMiddleware = require('webpack-dev-middleware')(compiler, {
     publicPath: devConfig.output.publicPath,
     quiet: true
@@ -86,7 +90,6 @@ webpackConfig().then(function(devConfig){
       _resolve()
     })
   })
-
 
   module.exports = {
     ready: readyPromise,
